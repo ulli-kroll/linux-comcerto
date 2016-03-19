@@ -194,6 +194,12 @@ config RTC_DRV_AS3722
 	  This driver can also be built as a module. If so, the module
 	  will be called rtc-as3722.
 
+
+config RTC_DRV_C2K
+	tristate "RTC driver for Comcerto 2000 RTC"
+	help
+	  Comcerto 2000 RTC driver
+
 config RTC_DRV_DS1307
 	tristate "Dallas/Maxim DS1307/37/38/39/40, ST M41T00, EPSON RX-8025"
 	help
